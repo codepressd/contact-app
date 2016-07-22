@@ -14,20 +14,20 @@
 <div class="contact-input col-2">
 	
 	<h2>ADD A CONTACT</h2>
-	<form>
+	<form id="newContact">
 		<p>First Name:<br>
-			<input type="text" name="firstname" required></p>
+			<input class="firstname" type="text" name="firstname" required></p>
 		<p>Last Name:<br>
-			<input type="text" name="lastname" required></p>
+			<input class="lastname" type="text" name="lastname" required></p>
 		<p>Phone Number: <button>Add Another Phone</button><br>
-			<input type="tel" name="phonenumber" required></p>
+			<input class="phone" type="tel" name="phonenumber" required></p>
 		<p>Street Address:<br>
-			<input type="text" name="street" required></p>
+			<input class="address" type="text" name="street"></p>
 		<p>City:<br>
-			<input type="text" name="city" required></p>
+			<input class="city" type="text" name="city"></p>
 		<p>State:<br>
-			<input type="tel" name="state" required></p>
-			<p><button>Add Address</button><button>Add Contact</button></p>
+			<input class="state" type="text" name="state"></p>
+			<p><button class="add-address">Add Address</button><button class="add-contact">Add Contact</button></p>
 	</form>
 </div>
 <div class="contact-details col-2">
@@ -35,6 +35,8 @@
 </div>
 <div class="contact-list">
 	<h2>List of Contacts</h2>
+	<ul>
+	</ul>
 </div>
 </section>
 <footer></footer>
