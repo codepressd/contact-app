@@ -62,6 +62,9 @@ h1,h2,h3,h4,h5,h6 {
 input{
 	width: 90%;
 }
+ul{
+	list-style-type: none;
+}
 
 /* Minor styling*/
 
@@ -74,6 +77,15 @@ input{
 	clear: both;
 	text-align: center;
 	font-size: 1.5em;
+
+}
+.list-contacts{
+	cursor: pointer;
+	color: blue;
+}
+.list-contacts > li:hover{
+	color: grey;
+
 }
 
 /**/
