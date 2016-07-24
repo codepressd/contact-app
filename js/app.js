@@ -38,7 +38,7 @@ $(document).ready(function(){
 		}
 
 		Contacts.addContact(newContact);// adds newContact to the Object
-		$('ul.list-contacts').append('<li>'+newContact.firstname+ ' ' +newContact.lastname+'<li>')
+		$('ul.list-contacts').append('<li>'+newContact.firstname+ ' ' +newContact.lastname+'</li>')
 
 		$('p > input').val('');
 	});
